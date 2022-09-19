@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+ul {
+    width: 300px;
+    li {
+        background-color: coral;
+        a {
+           text-transform: underline;
+           &:hover {
+            color: cornflowerblue;
+           }
+        }
+    }
+}
+.img {
+ width: 100px;
+ height: 100px;
+ img {
+   width: 100%; 
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+ }
+}
