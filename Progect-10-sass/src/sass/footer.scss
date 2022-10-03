@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    color: $white;
+    background-color: #2C3154;
+}
+.footer__container {
+    width: 100%;
+}
+.footer__copyright {
+    @include card-text;
+    text-align: center;
+    padding: 24px 0px;
+    color: $medium_grey;
+    & span {
+        color: $white;
+    }
+}
+@media (max-width: 1200px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 14px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__copyright {
+        padding: 14px 10px;
+    }
+}

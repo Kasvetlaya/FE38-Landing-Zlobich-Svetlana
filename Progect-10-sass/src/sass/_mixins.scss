@@ -1,0 +1,56 @@
+@mixin h6 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $_13px;
+  line-height: 15px;
+  text-transform: uppercase;
+    
+}
+@mixin h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: $_64px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: $white;
+}
+@mixin h4 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $_24px;
+  line-height: 28px;
+  color: $white;
+}
+@mixin h5 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $_18px;
+  line-height: 21px;
+}
+@mixin h3 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: $_30px;
+  line-height: 35px;
+  color: $black;
+}
+@mixin card-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $_18px;
+  line-height: 21px;
+  color: $black;
+}
+@mixin item-title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: $_24px;
+  line-height: 28px;
+}

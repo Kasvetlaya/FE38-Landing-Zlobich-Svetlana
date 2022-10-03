@@ -1,0 +1,106 @@
+.testimonials {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+   }
+
+.testimonials__content-item {
+    display: flex;
+    max-height: 490px;
+}
+
+.testimonials__photo {
+    display: block;
+    width: calc(100% / 2);
+    object-fit: cover;
+}
+
+.testimonials__quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $white;
+    width: calc(100% / 2);
+    background: #5C3249;
+}
+
+.testimonials__text {
+    width: 100%;
+    max-width: 471px;
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    margin: 17px 0;
+    text-transform: capitalize;
+}
+
+.testimonials__who-said {
+    width: 100%;
+    max-width: 471px;
+    @include h6;
+}
+
+@media (max-width: 1200px) {
+    .testimonials {
+        height: 367px;
+    }
+    
+    .testimonials__content-item {
+        max-height: 332px;
+        .testimonials__text {
+            max-width: 332px;
+            font-size: 24px;
+            line-height: 32px;
+            margin: 14px 0;
+        }
+        .testimonials__who-said {
+            max-width: 332px;
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .testimonials {
+        height: 570px;
+    }
+
+    .testimonials__content-item {
+        flex-direction: column;
+        align-items: center;
+        max-height: 320px;
+        max-width: 992px;
+    }
+    
+    .testimonials__photo {
+        min-height: 300px;
+        width: 100%;
+        max-width: 992px;
+    }
+    
+    .testimonials__quote {
+        justify-content: start;
+        min-height: 240px;
+        margin: 0 20px;
+        text-align: center;
+        width: 100%;
+        max-width: 992px;  
+        .testimonials__text {
+            padding: 23px 0;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .testimonials__photo {
+        min-height: 212px;
+    }
+    
+    .testimonials__quote {
+        min-height: 326px;
+    }
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@import "../sass/_cdn.scss";
+@import "../sass/_variables.scss";
+@import "../sass/_mixins.scss";
+@import "../sass/header.scss";
+@import "../sass/features.scss";
+@import "../sass/work.scss";
+@import "../sass/team.scss";
+@import "../sass/testimonials.scss";
+@import "../sass/download.scss";
+@import "../sass/location.scss";
+@import "../sass/footer.scss";
+
+html {
+    font-family: 'Raleway', 'Cardo', sans-serif;
+}
+.btn {
+    font-weight: 900;
+    font-size: $_24px;
+    line-height: 28px;
+    color: $white;
+    padding: 26px 0;
+    text-transform: uppercase;
+    width: 370px;
+    height: 80px;
+    border: none;
+    background-color: $red;
+    cursor: pointer;
+    &:hover {
+     background-color: $medium_red;
+     transition: 0.2s;
+    }
+    &:active {
+    background-color: $red;
+    box-shadow: 4px 4px 30px $red;
+    transition: 0.2s;
+  }
+}

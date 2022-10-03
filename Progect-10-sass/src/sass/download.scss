@@ -1,0 +1,34 @@
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 114px 0;
+    
+}
+
+.download__container {
+    width: 100%;
+    max-width: 1170px;
+}
+
+.download__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.download-title {
+    margin: 17px 0;
+    text-align: center;
+    @include h3;
+}
+
+.download-subtitle {
+    font-weight: 700;
+    margin: 5px 0 50px;
+    text-align: center;
+    text-transform: uppercase;
+    @include h5;
+}
+
+  
