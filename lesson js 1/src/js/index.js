@@ -57,14 +57,15 @@ const Picture = document.querySelector('.task11');
 Picture.innerHTML = '<img src="https://golos.ua/images/items/2020-08/02/CxJ6myL6cfYB26Mn/img_top.jpg" alt="">';
 
 // Task 12. Создайте две переменных z1 = 6, z2 = 3. Создайте div, класс присвойте самостоятельно и выведите в него умножение z1 на z2.
+// создадим див с класом произвольным
+// помнестим умножение в переменную результат
 const MULT12 = document.querySelector('.mult12');
 let z1 = 6;
 let z2 = 3;
 var result = z1 + z2;
 MULT12.textContent = result;
 
-// создадим див с класом произвольным
-// помнестим умножение в переменную результат
+
 
 // Task 13. Создайте две переменных y1 = 6, y2 = 3. Создайте div, класс присвойте самостоятельно, выведите в него деление y1 на y2.
 const DIVIZION13 = document.querySelector('.division13');
@@ -72,6 +73,7 @@ let y1 = 6;
 let y2 = 3;
 var result = z1 / z2;
 DIVIZION13.textContent = result;
+
 // Task 14. Создайте две переменные x1='Hello', x2 = 5. Создайте div, класс присвойте самостоятельно, выведите в него сумму x1 + x2. Изучите результат операции.
 //
 const SUM14 = document.querySelector(".sum"); 
